@@ -1,0 +1,5 @@
+# RetroGNN: Fast Estimation of Synthesizability for Virtual Screening and De Novo Design by Learning from Slow Retrosynthesis Software
+
+Implementation for our [paper](https://pubs.acs.org/action/showCitFormats?doi=10.1021/acs.jcim.1c01476&ref=pdf), J. Chem. Inf. Model., **2022**, in press. [Previous version](https://arxiv.org/abs/2011.13042) was accepted at NeurIPS ML4Molecules Workshop, 2019.
+
+Currently, the repository includes synthesizability scores of organic molecules from [Molecule.one](https://www.molecule.one/), and [AiZynthFinder](https://github.com/MolecularAI/aizynthfinder), as well as example GNN models (using [chemprop](https://github.com/chemprop/chemprop)) trained on them in the small building block search space, as described in the paper. This project is a part of a larger project of [LambdaZero](https://mila.quebec/en/ai-society/exascale-search-of-molecules/) and this repository is an extraction from it, where original commits are lost. Example code for virtual screening and Boltzmann search will be made available soon，to be extracted from the internal repository.
